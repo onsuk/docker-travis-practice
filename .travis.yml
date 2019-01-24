@@ -8,4 +8,4 @@ before_install:
 - docker build -t bear2u/docker-react -f Dockerfile.dev .
 #4
 script:
-- docker run bear2u/docker-react npm run test -- --coverage
+- docker run onsuk/docker-travis-practice npm run test -- --coverage
