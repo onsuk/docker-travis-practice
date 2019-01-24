@@ -5,7 +5,7 @@ services:
 - docker
 #3
 before_install:
-- docker build -t onsuk/docker-travis-practice -f Dockerfile.dev .
+- docker build -t /Users/onz/docker-exam-react -f Dockerfile.dev .
 #4
 script:
-- docker run onsuk/docker-travis-practice npm run test -- --coverage
+- docker run /Users/onz/docker-exam-react npm run test -- --coverage
